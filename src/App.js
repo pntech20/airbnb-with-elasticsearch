@@ -19,11 +19,11 @@ class App extends Component {
         <div className="extra-info-container">
           <div className="type-container info">
             {data.room_type}-{data.beds} bed
-                    </div>
+          </div>
           <div className="name-container info">{data.name}</div>
           <div className="price-container info">
             ${data.price} per night-Free cancellation
-                    </div>
+          </div>
         </div>
       </div>
     );
@@ -163,7 +163,7 @@ class App extends Component {
                               <div className="card__price">${data.price}</div>
                               <p className="card__info">
                                 {data.room_type} · {data.accommodates} guests
-                                                        </p>
+                            </p>
                             </div>
                           </div>
                         ))}
