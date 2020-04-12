@@ -1,0 +1,7 @@
+{
+    "build": {
+        "env": {
+            "REACT_APP_MAPS_API": "@react_app_maps_api"
+        }
+    }
+}
